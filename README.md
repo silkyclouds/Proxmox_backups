@@ -5,6 +5,7 @@ This script uploads Proxmox backups to Google Drive and sends notifications to a
 - Creates a subdirectory on Google Drive with the format `DD-MM-YYYY` and copies the files into it.
 - Deletes subdirectories older than a configurable number of days.
 - Sends notifications to a Discord webhook when the backup process starts, after each file is uploaded, and when the process is complete.
+![Proxmox Backups Notification](./proxmox_backups_notification.png)
 
 ## Prerequisites
 
